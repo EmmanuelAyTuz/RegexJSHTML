@@ -1,0 +1,50 @@
+h1 {
+    color: blue;
+    font-size: 20px;
+}
+
+h3 {
+    color: darkslateblue;
+    font-size: 13px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+.padding {
+    padding: 10px;
+}
+
+#output {
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+input[type='submit'] {
+    border-radius: 15px;
+    background-color: rgb(49, 13, 179);
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    margin-top: 5px;
+    border-style: none;
+}
+
+input[type='text'] {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 2px solid blue;
+    padding: 5px;
+}
+
+textarea[type="text"] {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+    padding: 5px;
+}

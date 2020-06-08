@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Regex</title>
+    <script type="text/javascript" src="regex.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="myform" name="myform" method="POST" action="javascript:void(0)">
+        <div id="center">
+            <div class="padding">
+                <section>
+                    <h1>Texto:</h1>
+                    <textarea type="text" id="input" name="input" cols="50" rows="20"></textarea>
+                </section>
+            </div>
+            <div class="padding">
+                <section>
+                    <h1>Palabra:</h1>
+                    <input type="text" id="word" name="word">
+                </section>
+                <section>
+                    <h3><input type="checkbox" id="sensible"> Ignorar MAYUSCULAS & minusculas</h3>
+                </section>
+                <section>
+                    <h1>Remplazo:</h1>
+                    <input type="text" id="replace" name="replace">
+                </section>
+                <section>
+                    <h3><input type="checkbox" id="exact" checked> Exacta</h3>
+                </section>
+                <section>
+                    <input type="submit" value="BUSCAR" onclick="sr('search')">
+                    <input type="submit" value="REMPLAZAR" onclick="sr('replace')">
+                    <input type="submit" value="TOTAL" onclick="sr('total')">
+                </section>
+                <section>
+                    <p id="output"></p>
+                </section>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
